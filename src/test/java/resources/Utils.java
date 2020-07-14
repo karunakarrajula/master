@@ -42,15 +42,12 @@ public class Utils {
 		FileInputStream fis =new FileInputStream("C:\\Framework\\APIFramework\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
-
-
 	}
 
  
 	public String getJsonPath(Response response,String key)
 	{
-		
-			
+				
 		String resp=response.asString();
 		JsonPath   js = new JsonPath(resp);
 		
