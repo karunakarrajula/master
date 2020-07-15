@@ -45,7 +45,7 @@ public class TestDataBuild {
 			
 			return em;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
  return null;
@@ -85,7 +85,7 @@ public class TestDataBuild {
 				System.out.println(coloumn);
 
 				//// once coloumn is identified then scan entire testcase coloum to identify
-				//// purcjhase testcase row
+			
 				while (rows.hasNext()) {
 
 					Row r = rows.next();
